@@ -15,13 +15,11 @@ ArrayHash TableSortingHeap (Priority Queue)
 ArrayHash Table
 
 844. Backspace String Compare
-Easy
-
 Two PointersStringStackSimulation
-1356. Sort Integers by The Number of 1 Bits
-Easy
 
+1356. Sort Integers by The Number of 1 Bits
 ArrayBit ManipulationSortingCounting
+
 1507. Reformat Date
 Easy
 

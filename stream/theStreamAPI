@@ -1,0 +1,20 @@
+    a stream is a conduit for data 
+    a stream represents a sequence of objects
+    a stream operates on a data source, such as an array or a collection
+
+    a stream itself never provides storage for the data, it simply moves data, filtering, 
+    sorting, or operating on that data in the process. 
+    however, a stream does not modify the data source, for example, sorting a stream 
+    does not change the order of the source 
+    Rather, sorting a stream results in the creation of a new stream that produces the 
+    sorted result. 
+
+    The stream API defines several stream interfaces, which packaged in java.util.stream
+    and contained in the java.base module. 
+    At the fundation is BaseStream
+    BaseStream is a generic interface
+
+    BaseStream extends the AutoCloseable interface, thus, a stream can be managed in a 
+    try-with-resources statement. 
+    However, unless required closing, most of time, collections data does not need to 
+    close specifically. 
