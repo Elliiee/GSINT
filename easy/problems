@@ -1,0 +1,184 @@
+All
+Filter
+Easy
+
+387. First Unique Character in a String
+Hash TableStringQueueCounting
+
+121. Best Time to Buy and Sell Stock
+ArrayDynamic Programming
+
+1086. High Five
+ArrayHash TableSortingHeap (Priority Queue)
+
+1. Two Sum
+ArrayHash Table
+
+844. Backspace String Compare
+Easy
+
+Two PointersStringStackSimulation
+1356. Sort Integers by The Number of 1 Bits
+Easy
+
+ArrayBit ManipulationSortingCounting
+1507. Reformat Date
+Easy
+
+String
+696. Count Binary Substrings
+Easy
+
+Two PointersString
+20. Valid Parentheses
+Easy
+
+StringStack
+1413. Minimum Value to Get Positive Step by Step Sum
+Easy
+
+ArrayPrefix Sum
+2154. Keep Multiplying Found Values by Two
+Easy
+
+ArrayHash TableSortingSimulation
+70. Climbing Stairs
+Easy
+
+MathDynamic ProgrammingMemoization
+326. Power of Three
+Easy
+
+MathRecursion
+706. Design HashMap
+Easy
+
+ArrayHash TableLinked ListDesign1+
+1427. Perform String Shifts
+Easy
+
+ArrayMathString
+2446. Determine if Two Events Have Conflict
+Easy
+
+ArrayString
+3168. Minimum Number of Chairs in a Waiting Room
+Easy
+
+StringSimulation
+242. Valid Anagram
+Easy
+
+Hash TableStringSorting
+141. Linked List Cycle
+Easy
+
+Hash TableLinked ListTwo Pointers
+1832. Check if the Sentence Is Pangram
+Easy
+
+Hash TableString
+657. Robot Return to Origin
+Easy
+
+StringSimulation
+13. Roman to Integer
+Easy
+
+Hash TableMathString
+119. Pascal's Triangle II
+Easy
+
+ArrayDynamic Programming
+69. Sqrt(x)
+Easy
+
+MathBinary Search
+118. Pascal's Triangle
+Easy
+
+ArrayDynamic Programming
+160. Intersection of Two Linked Lists
+Easy
+
+Hash TableLinked ListTwo Pointers
+268. Missing Number
+Easy
+
+ArrayHash TableMathBinary Search2+
+509. Fibonacci Number
+Easy
+
+MathDynamic ProgrammingRecursionMemoization
+2006. Count Number of Pairs With Absolute Difference K
+Easy
+
+ArrayHash TableCounting
+21. Merge Two Sorted Lists
+Easy
+
+Linked ListRecursion
+83. Remove Duplicates from Sorted List
+Easy
+
+Linked List
+88. Merge Sorted Array
+Easy
+
+ArrayTwo PointersSorting
+101. Symmetric Tree
+Easy
+
+TreeDepth-First SearchBreadth-First SearchBinary Tree
+110. Balanced Binary Tree
+Easy
+
+TreeDepth-First SearchBinary Tree
+125. Valid Palindrome
+Easy
+
+Two PointersString
+169. Majority Element
+Easy
+
+ArrayHash TableDivide and ConquerSorting1+
+219. Contains Duplicate II
+Easy
+
+ArrayHash TableSliding Window
+338. Counting Bits
+Easy
+
+Dynamic ProgrammingBit Manipulation
+344. Reverse String
+Easy
+
+Two PointersString
+412. Fizz Buzz
+Easy
+
+MathStringSimulation
+496. Next Greater Element I
+Easy
+
+ArrayHash TableStackMonotonic Stack
+530. Minimum Absolute Difference in BST
+Easy
+
+TreeDepth-First SearchBreadth-First SearchBinary Search Tree1+
+876. Middle of the Linked List
+Easy
+
+Linked ListTwo Pointers
+1047. Remove All Adjacent Duplicates In String
+Easy
+
+StringStack
+1207. Unique Number of Occurrences
+Easy
+
+ArrayHash Table
+1636. Sort Array by Increasing Frequency
+Easy
+
+ArrayHash TableSorting
