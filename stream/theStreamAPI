@@ -1,4 +1,5 @@
-    a stream is a conduit for data 
+'''
+a stream is a conduit for data 
     a stream represents a sequence of objects
     a stream operates on a data source, such as an array or a collection
 
@@ -18,3 +19,54 @@
     try-with-resources statement. 
     However, unless required closing, most of time, collections data does not need to 
     close specifically. 
+
+    From BaseStream are derived several types of stream interfaces, the most general of 
+    these is Stream. 
+    Notice that many of the methods are noted as being either terminal or intermediate.
+    The difference is very important. 
+
+    A terminal operation consumes the stream. 
+    It is used to produce a result, such as finding the minimum value in the stream. 
+    Once a stream has been consumed, it cannot be reused. 
+
+    Intermediate operations produce another stream. 
+    Thus, it can be used to create a piple that performs a sequence of actions. 
+
+    Note: intermediate operations do not take place immediately. Instead, the specified
+    action is performed when a terminal operation is executed on the new stream created 
+    by an intermediate operation. 
+    --lazy behavior
+    --and the intermediate operations are referred to as lazy
+
+    Another key aspect of streams is that some intermediate operations are stateless, 
+    some are stateful. 
+    In a stateless operation, each element is processed independently of the others. 
+    In a stateful operation, the processing of an element may depend on asepects of the 
+    other elements. 
+    sorting is a stateful operation
+    however, filtering elements based on a statelss predicate is stateless because each 
+    element is handled individually
+
+    the difference between stateless and stateful operations is especially important
+    when parallel processing of a stream is desired because a stateful operation may 
+    require more than one pass to complete 
+
+    Because Stream operations on object references, it can't operate directly on
+    primitive types. 
+    To handle primitive type streams, the stream API defines the following interfaces:
+    DoubleStream
+    IntStream
+    LongStream
+    they all extends BaseStream
+    they are similar to Stream except that they operate on primitive types. 
+    They also provide some convenience methods, such as .boxed(), that facilitate 
+    their use. 
+
+    Collection interface has 2 default method to get a stream
+    stream()
+    parallelStream()
+    but also you can get a stream by stream(int[] arr) an array
+
+    BufferdReader.lines() can also obtain a stream 
+    
+'''

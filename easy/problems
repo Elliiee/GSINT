@@ -21,25 +21,30 @@ Two PointersStringStackSimulation
 ArrayBit ManipulationSortingCounting
 
 1507. Reformat Date
-Easy
+String regular expression, String.split("\\s+");
 
-String
 696. Count Binary Substrings
-Easy
+这题没有什么数据结构，就是算法很难想到
+Two Pointers String
 
-Two PointersString
 20. Valid Parentheses
-Easy
+String Stack
 
-StringStack
 1413. Minimum Value to Get Positive Step by Step Sum
-Easy
+Array Prefix Sum
 
-ArrayPrefix Sum
 2154. Keep Multiplying Found Values by Two
-Easy
+Array Hash Table Sorting Simulation
+这题用一个set挺容易的
 
-ArrayHash TableSortingSimulation
+1427. Perform String Shifts
+这题用一个deque, 然后stringbuilder sb.toString() 自己写出来了，但是only beat 8%。 
+
+2446. Determine if Two Evens have Conflict
+return event1[0].compareTo(event2[1]) <= 0 && event2[0].compareTo(event1[1]) <= 0;
+
+3168. Minimum Number of Chairs in a Waiting Room
+
 70. Climbing Stairs
 Easy
 
