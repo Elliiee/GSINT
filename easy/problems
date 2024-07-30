@@ -46,79 +46,54 @@ return event1[0].compareTo(event2[1]) <= 0 && event2[0].compareTo(event1[1]) <= 
 3168. Minimum Number of Chairs in a Waiting Room
 
 70. Climbing Stairs
-Easy
+Dp 
 
-MathDynamic ProgrammingMemoization
 326. Power of Three
-Easy
 
-MathRecursion
 706. Design HashMap
-Easy
-
 ArrayHash TableLinked ListDesign1+
-1427. Perform String Shifts
-Easy
 
-ArrayMathString
-2446. Determine if Two Events Have Conflict
-Easy
-
-ArrayString
-3168. Minimum Number of Chairs in a Waiting Room
-Easy
-
-StringSimulation
 242. Valid Anagram
-Easy
-
 Hash TableStringSorting
+Arrays.equals(countS, countT); !!
+
 141. Linked List Cycle
-Easy
 
-Hash TableLinked ListTwo Pointers
 1832. Check if the Sentence Is Pangram
-Easy
+use set 
 
-Hash TableString
 657. Robot Return to Origin
 Easy
 
-StringSimulation
 13. Roman to Integer
-Easy
-
 Hash TableMathString
+
 119. Pascal's Triangle II
-Easy
-
 ArrayDynamic Programming
+
 69. Sqrt(x)
-Easy
+Binary Search
 
-MathBinary Search
 118. Pascal's Triangle
-Easy
-
 ArrayDynamic Programming
+
 160. Intersection of Two Linked Lists
-Easy
-
 Hash TableLinked ListTwo Pointers
+
 268. Missing Number
-Easy
-
 ArrayHash TableMathBinary Search2+
+XOR ^ 
+
 509. Fibonacci Number
-Easy
+dp 
 
-MathDynamic ProgrammingRecursionMemoization
 2006. Count Number of Pairs With Absolute Difference K
-Easy
-
 ArrayHash TableCounting
+
+14. Longest Common Prefix 
+String.indexOf(); because it's a prefix, so the indexOf() has to be index == 0; 
+
 21. Merge Two Sorted Lists
-Easy
 
 Linked ListRecursion
 83. Remove Duplicates from Sorted List
